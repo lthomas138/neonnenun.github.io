@@ -1,0 +1,32 @@
+body {
+	background-color: #000;
+}
+footer {
+	background-color: #000;
+}
+nav {
+	background-color: rgba(0,0,0,.9);
+	color: #fff;
+}
+.nav-btn {
+	background-color: #000;
+}
+#banner_float {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.banner {
+	height: 900px;
+	position:relative;
+	background-color: #fff;
+	background-image: url('./images/alien-hands.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+.container {
+	min-height: 400px;
+	background-color: #000;
+}

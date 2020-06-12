@@ -5,70 +5,33 @@
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="./main.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top">
-			<div class="col-md-4 col-sm-12 col-xs-12">
-				<h3>Neon Nenun</h3>
-			</div>
-			<div class="col-md-8 col-sm-12 col-xs-12 text-right" style="padding-top: 10px;">
-				<button class="btn nav-btn btn-info" type="button">Our Mission</button>
-				<button class="btn nav-btn btn-info" type="button">Our Services</button>
-				<button class="btn nav-btn btn-info" type="button">About Us</button>
-				<button class="btn nav-btn btn-info" type="button">Testimonials</button>
-			</div>
-		</nav>
-		<div class="jumbotron" style="height: 100vh;position:relative;background-color: #fff;">
-			<img src="alien-hands.png" id="alien-hands">
-			<div id="home_float">
+		<div id="navbar-include"></div>
+		<section class="jumbotron banner">
+			<div id="banner_float">
 				<center>
-					<h1>Welcome to Neon Nenun</h1>
-					<hr>
+					<h1>Welcome to Neon Nenun</h1><hr>
 					<h3>Results to Requirements.</h3>
 				</center>
 			</div>
-		</div>
-		<footer class="navbar navbar-fixed-bottom text-center">
-			© 2019 Copyright: Neon Nenun
+		</section>
+		<section class="container">
+			
+		</section>
+		<footer class="navbar text-center">
+			© 2020 Copyright: Neon Nenun
 		</footer>
 	</body>
 </html>
 
 <script>
+$("#navbar-include").load("header-nav.html");
 $(document).on("click", function(){
-	var audio = new Audio('Yeah!.mp3');
+	var audio = new Audio('./audio/Yeah!.mp3');
 	audio.play();
 });
 </script>
-
-<style>
-.nav-btn {
-	background-color: #000;
-}
-nav {
-	background-color: rgba(0,0,0,.9);
-	color: #fff;
-}
-#alien-hands {
-	width: 100%;
-	height: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 50;
-}
-footer {
-	background-color: #000;
-}
-#home_float {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	background: radial-gradient(rgba(0,0,0,.4), #fff);
-	color: #fff;
-}
-</style>
