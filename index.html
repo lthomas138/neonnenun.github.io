@@ -26,16 +26,11 @@
 				</div>
 			</div>
 		</section>
-		<footer class="navbar text-center">
-			© 2020 Copyright: Neon Nenun
-		</footer>
+		<div id="footer-include"></div>
 	</body>
 </html>
 
 <script>
 $("#navbar-include").load("header-nav.html");
-$(document).on("click", function(){
-	var audio = new Audio('./audio/Yeah!.mp3');
-	audio.play();
-});
+$("#footer-include").load("footer-nav.html");
 </script>
