@@ -4,8 +4,12 @@
 </footer>
 
 <script>
-$(document).click(function(){
+$(".jumbotron").click(function(){
 	const audio = new Audio("./audio/Yeah!.mp3");
+	audio.play();
+});
+$(".container").click(function(){
+	const audio = new Audio("./audio/sample.wav");
 	audio.play();
 });
 </script>
