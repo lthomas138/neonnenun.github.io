@@ -45,6 +45,7 @@ nav {
 	.nav-menu .nav-btn {
 		display: block;
 		float: right;
+		border: none !important;
 	}
 }
 .container {
@@ -101,4 +102,7 @@ nav {
 #mobile-nav {
 	float: right;
 	margin-right: 5px;
+}
+#mobile-nav:selected {
+	background-color: #bbb;
 }
