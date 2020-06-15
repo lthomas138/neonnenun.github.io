@@ -31,7 +31,7 @@ nav {
 .banner {
 	height: 900px;
 	position:relative;
-	background: #fff url('./images/alien-hands.png') no-repeat center center fixed;
+	background: #fff url('./images/alien-hands.png') no-repeat center top fixed;
 	background-size: cover;
 }
 .container {
