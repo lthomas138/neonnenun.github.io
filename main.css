@@ -90,3 +90,7 @@ nav {
 .disabled:hover {
   background-color: #ccc !important;
 }
+#mobile-nav {
+	float: right;
+	margin-right: 5px;
+}
