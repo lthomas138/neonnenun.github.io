@@ -34,6 +34,11 @@ nav {
 	background: #fff url('./images/alien-hands.png') no-repeat center top fixed;
 	background-size: cover;
 }
+@media screen and (max-width: 1000px){
+	.banner {
+		height: 400px !important;
+	}
+}
 .container {
 	min-height: 400px;
 	background-color: #000;
