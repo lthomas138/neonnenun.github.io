@@ -38,14 +38,22 @@ nav {
 	.banner {
 		height: 450px !important;
 	}
-	.nav-menu {
+	#mobile-nav {
+		float: right;
+		margin-right: 5px;
+	}
+	#mobile-nav:active {
+		background-color: #bbb;
+	}
+	#mobile-nav:active + .nav-menu {
 		display: block !important;
 		background-color: rgba(0,0,0,.9);
 	}
-	.nav-menu .nav-btn {
+	#mobile-nav:active + .nav-menu .nav-btn {
 		display: block;
 		float: right;
 		border: none !important;
+		background: none !important;
 	}
 }
 .container {
@@ -98,11 +106,4 @@ nav {
 .disabled,
 .disabled:hover {
   background-color: #ccc !important;
-}
-#mobile-nav {
-	float: right;
-	margin-right: 5px;
-}
-#mobile-nav:selected {
-	background-color: #bbb;
 }
