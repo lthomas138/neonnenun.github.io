@@ -31,11 +31,8 @@ nav {
 .banner {
 	height: 900px;
 	position:relative;
-	background-color: #fff;
-	background-image: url('./images/alien-hands.png');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: #fff url('./images/alien-hands.png') no-repeat center center fixed;
+	background-size: cover;
 }
 .container {
 	min-height: 400px;
@@ -87,4 +84,10 @@ nav {
 .disabled,
 .disabled:hover {
   background-color: #ccc !important;
+}
+#mobile-nav{
+	width: 70px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: #ccc;
 }
