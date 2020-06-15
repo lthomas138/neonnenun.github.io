@@ -42,14 +42,14 @@ nav {
 		float: right;
 		margin-right: 5px;
 	}
-	#mobile-nav:active {
+	#mobile-nav:focus {
 		background-color: #bbb;
 	}
-	#mobile-nav:active + .nav-menu {
+	#mobile-nav:focus + .nav-menu {
 		display: block !important;
 		background-color: rgba(0,0,0,.9);
 	}
-	#mobile-nav:active + .nav-menu .nav-btn {
+	#mobile-nav:focus + .nav-menu .nav-btn {
 		display: block;
 		float: right;
 		border: none !important;
