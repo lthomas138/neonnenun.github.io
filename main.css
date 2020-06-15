@@ -38,6 +38,14 @@ nav {
 	.banner {
 		height: 450px !important;
 	}
+	.nav-menu {
+		display: block;
+		background-color: rgba(0,0,0,.9);
+	}
+	.nav-menu .nav-btn {
+		display: block;
+		float: right;
+	}
 }
 .container {
 	min-height: 400px;
