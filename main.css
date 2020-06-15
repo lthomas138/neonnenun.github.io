@@ -41,3 +41,50 @@ nav {
 	min-height: 400px;
 	background-color: #000;
 }
+.blog_page_btn {
+  padding: 5px;
+  display: inline-block;
+}
+.blog {
+  padding-bottom: 15px;
+}
+.page_btn {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  border: none !important;
+}
+.blog_img {
+  height: 300px;
+  width: 95%;
+  cursor: pointer;  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  transition: background .3s linear;
+}
+.blog_img:hover {
+  transition: border-radius .3s;
+  border-radius: 50%;
+  border:2px solid #aaa;
+  border-style:outset;
+}
+.blog_img:hover .shine {
+  transform: skewX(15deg) translateX(420px);
+}
+.shine {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  height: 100%;
+  width: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all .3s linear;
+  transform: skewX(15deg) translateX(0);
+}
+.disabled,
+.disabled:hover {
+  background-color: #ccc !important;
+}
