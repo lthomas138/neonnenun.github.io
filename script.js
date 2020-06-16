@@ -4,6 +4,6 @@ $(document).ready(function(){
 	$('#nav-menu').slideToggle();
 });
 
-$('#mobile-nav').click(function(){
+function toggleNav(){
 	$('#nav-menu').slideToggle();
-});
+}
