@@ -2,7 +2,7 @@ body {
 	background-color: #000;
 	font-family: "Courier";
 }
-div {
+* {
 	cursor: url('./images/cursor.png'), auto !important;
 }
 p {
@@ -101,5 +101,6 @@ nav {
 		background: none;
 		display: block;
 		float: right;
+		clear: both;
 	}
 }
