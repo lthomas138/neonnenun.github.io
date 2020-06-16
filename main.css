@@ -45,11 +45,10 @@ nav {
 	#mobile-nav:focus {
 		background-color: #bbb;
 	}
-	#mobile-nav:focus + .nav-menu {
-		display: block !important;
+	.nav-menu {
 		background-color: rgba(0,0,0,.9);
 	}
-	#mobile-nav:focus + .nav-menu .nav-btn {
+	.nav-btn {
 		display: block;
 		float: right;
 		border: none !important;
