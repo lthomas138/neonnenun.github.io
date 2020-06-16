@@ -49,10 +49,13 @@ nav {
 		padding-top: 0 !important;
 	}
 	#nav-menu .nav-btn {
-		display: block;
-		margin-right: 0 !important;
 		border: none !important;
 		background: none !important;
+	}
+	#nav-menu {
+		display:flex;
+		justify-content: flex-end;
+		outline: 2px deeppink dashed;
 	}
 }
 .slidingNav {
