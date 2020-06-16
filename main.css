@@ -41,25 +41,8 @@ nav {
 	float: right;
 	margin-right: 5px;
 }
-@media screen and (max-width: 1000px){
-	.banner {
-		height: 450px !important;
-	}
-	#nav-right {
-		padding-top: 0 !important;
-	}
-	#nav-menu .nav-btn {
-		border: none !important;
-		background: none !important;
-	}
-	#nav-menu {
-		display:flex;
-		justify-content: flex-end;
-		outline: 2px deeppink dashed;
-	}
-}
 .slidingNav {
-	color: #000 !important;
+	color: #000;
 }
 .container {
 	min-height: 400px;
@@ -111,4 +94,20 @@ nav {
 .disabled,
 .disabled:hover {
   background-color: #ccc !important;
+}
+@media screen and (max-width: 1000px){
+	.banner {
+		height: 450px !important;
+	}
+	#nav-right {
+		padding-top: 0;
+	}
+	#nav-menu .nav-btn {
+		border: none;
+		background: none;
+	}
+	#nav-menu {
+		display: flex;
+		justify-content: flex-end;
+	}
 }
