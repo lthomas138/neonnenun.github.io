@@ -34,8 +34,9 @@ nav {
 	background: #fff url('./images/alien-hands.png') no-repeat center top fixed;
 	background-size: cover;
 }
-#nav-right {
-	padding-top: 30px;
+#nav-right #nav-menu {
+	display: inline-block;
+	vertical-align: bottom;
 }
 #mobile-nav {
 	float: right;
