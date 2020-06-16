@@ -36,7 +36,6 @@ nav {
 }
 #nav-menu {
 	padding-top: 30px;
-	position: relative;
 }
 #mobile-nav {
 	float: right;
@@ -51,8 +50,7 @@ nav {
 	}
 	#nav-menu .nav-btn {
 		display: block;
-		position: absolute;
-		right: 0;
+		margin-right: 0 !important;
 		border: none !important;
 		background: none !important;
 	}
