@@ -55,14 +55,6 @@ nav {
 .blog {
   padding-bottom: 15px;
 }
-.page_btn {
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  color: #fff;
-  text-align: center;
-  border: none !important;
-}
 .blog_img {
   height: 300px;
   width: 95%;
@@ -91,10 +83,6 @@ nav {
   transition: all .3s linear;
   transform: skewX(15deg) translateX(0);
 }
-.disabled,
-.disabled:hover {
-  background-color: #ccc !important;
-}
 @media screen and (max-width: 1000px){
 	.banner {
 		height: 450px !important;
@@ -106,8 +94,9 @@ nav {
 		border: none;
 		background: none;
 	}
-	#nav-menu .nav-btn {
+	#nav-menu {
 		display: flex;
 		justify-content: flex-end;
+		align-content: right;
 	}
 }
