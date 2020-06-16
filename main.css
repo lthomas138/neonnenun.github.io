@@ -35,6 +35,9 @@ nav {
 	background-size: cover;
 }
 #nav-right {
+	height: 100%;
+}
+#nav-right #nav-menu {
 	display: inline-block;
 	vertical-align: bottom;
 }
