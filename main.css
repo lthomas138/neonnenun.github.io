@@ -2,8 +2,8 @@ body {
 	background-color: #000;
 	font-family: "Courier";
 }
-body, div {
-	cursor: url('./images/cursor.png'), auto;
+div {
+	cursor: url('./images/cursor.png'), auto !important;
 }
 p {
 	color: #fff;
@@ -37,6 +37,7 @@ nav {
 	background: #fff url('./images/alien-hands.png') no-repeat center top fixed;
 	background-size: cover;
 }
+#nav-left,
 #nav-right {
 	display: flex;
 	align-items: center;
