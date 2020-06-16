@@ -93,10 +93,9 @@ nav {
 	#nav-menu .nav-btn {
 		border: none;
 		background: none;
+		display: block;
 	}
 	#nav-menu {
-		display: flex;
-		justify-content: flex-end;
-		align-content: right;
+		align-items: right;
 	}
 }
