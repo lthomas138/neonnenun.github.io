@@ -37,6 +37,10 @@ nav {
 #nav-right {
 	padding-top: 30px;
 }
+#mobile-nav {
+	float: right;
+	margin-right: 5px;
+}
 @media screen and (max-width: 1000px){
 	.banner {
 		height: 450px !important;
@@ -44,19 +48,15 @@ nav {
 	#nav-right {
 		padding-top: 0 !important;
 	}
-	#mobile-nav {
-		float: right;
-		margin-right: 5px;
-	}
 	#nav-menu .nav-btn {
 		display: block;
 		float: right;
 		border: none !important;
 		background: none !important;
 	}
-	.slidingNav {
-		color: #000 !important;
-	}
+}
+.slidingNav {
+	color: #000 !important;
 }
 .container {
 	min-height: 400px;
