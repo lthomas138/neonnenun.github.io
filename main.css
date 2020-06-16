@@ -94,8 +94,6 @@ nav {
 		border: none;
 		background: none;
 		display: block;
-	}
-	#nav-menu {
-		align-items: right;
+		float: right;
 	}
 }
