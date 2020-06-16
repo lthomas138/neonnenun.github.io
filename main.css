@@ -34,16 +34,19 @@ nav {
 	background: #fff url('./images/alien-hands.png') no-repeat center top fixed;
 	background-size: cover;
 }
+#nav-right {
+	padding-top: 30px;
+}
 @media screen and (max-width: 1000px){
 	.banner {
 		height: 450px !important;
 	}
+	#nav-right {
+		padding-top: 0 !important;
+	}
 	#mobile-nav {
 		float: right;
 		margin-right: 5px;
-	}
-	#mobile-nav:focus {
-		background-color: #bbb;
 	}
 	#nav-menu .nav-btn {
 		display: block;
