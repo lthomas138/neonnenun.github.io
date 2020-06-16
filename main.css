@@ -106,7 +106,7 @@ nav {
 		border: none;
 		background: none;
 	}
-	#nav-menu {
+	#nav-menu .nav-btn {
 		display: flex;
 		justify-content: flex-end;
 	}
